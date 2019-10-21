@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This link is needed to load in Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- This is my own CSS style sheet to add to Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap1css.css">
+
+    <title>Bootstrap1</title>
+
+    <!-- This script is needed to include bootstrap in this file -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- if using compiled JavaScript, I need to have these 2 scripts included -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+
+        <div class="container">
+                <!-- Content here -->
+            <h2>Sports I follow:</h2>
+            <div>
+                <a class="btn btn-primary" href="#" role="button">College Football</a>
+                <a class="btn btn-secondary" href="#" role="button">NFL</a>
+                <a class="btn btn-primary" href="#" role="button">MLB</a>
+                <a class="btn btn-primary" href="#" role="button">Golf</a>
+                <a class="btn btn-primary" href="#" role="button">Tennis</a>
+                <a class="btn btn-secondary" href="#" role="button">NHL</a>
+            </div>
+
+        </div>
+        <div class="jumbotron">
+            <h1 class="display-4">Recent Events:</h1>
+            <div class="headline">
+                <h2>College Football</h2>
+                <ol>
+                    <li>OU wins again with dominant performance from Jalen Hurts</li>
+                    <li>Purdue loses to Iowa 26-20 despite great defensive effort</li>
+                    <li>Michigan drops to Penn State after last minute dropped pass in end zone</li>
+                </ol>
+                <div class="container">
+                    <div class="sportsbuttons">
+                        <button type="button" class="btn btn-primary btn-sm">Learn More</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Buy Gear</button>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+
+            <div class="headline">
+                <h2>MLB</h2>
+                <ol>
+                    <li>Astros win with homer from Jose Altuve in bottom of 9th</li>
+                    <li>Nationals to play Astros for World Series title</li>
+                </ol>
+                <div class="container">
+                        <div class="sportsbuttons">
+                            <button type="button" class="btn btn-primary btn-sm">Learn More</button>
+                            <button type="button" class="btn btn-secondary btn-sm">Buy Gear</button>
+                        </div>
+                    </div>
+                    <p></p>
+            </div>
+
+            <div class="headline">
+                <h2>Golf</h2>
+                <ol>
+                    <li>Justin Thomas wins $1.7 Million with victory in South Korea</li>
+                    <li>Danny Lee talks about birth of child 2 months pre-mature</li>
+                </ol>
+                <div class="container">
+                        <div class="sportsbuttons">
+                            <button type="button" class="btn btn-primary btn-sm">Learn More</button>
+                            <button type="button" class="btn btn-secondary btn-sm">Buy Gear</button>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>  
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>College Football</h2>
+                    <p>This weekend we saw several near  upsets but all ranked teams prevailed. We'll see how the rankings are impacted by these results.</p>
+                    <p>
+                        <a href="#" class="btn btn-danger btn-sm">View Details</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>MLB</h2>
+                    <p>The ALCS ended in dramatic fashion last night as the Astros had a walk-off homerun by Jose Altuve to send the Astros to their second World Series in 3 years.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-danger btn-sm">View Details</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Golf</h2>
+                    <p>This weekend the PGA Tour was in South Korea for one of the richest tournaments of the year. Justin Thomas continued his winning ways with a 3 stroke victory over Danny Lee.</p>
+                    <p>
+                        <a href="#" class="btn btn-danger btn-sm">View Details</a>
+                    </p>
+                </div>
+            
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                </div>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <Div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Example select</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Example multiple select</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <h3>Please select your gender:</h3>
+                    <input class="form-check=input" type="radio" name="inlineradiooptions" id="inlineradio1" value="Male">
+                    <label class="form-check-label" for="inlineradio1">Male</label>
+                    <input class="form-check=input" type="radio" name="inlineradiooptions" id="inlineradio2" value="Female">
+                    <label class="form-check-label" for="inlineradio2">Female</label>
+                    <input class="form-check=input" type="radio" name="inlineradiooptions" id="inlineradio3" value="Refuse">
+                    <label class="form-check-label" for="inlineradio3">Refuse</label>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Please add any additional comments:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </form>
+        </Div>
+            
+    </body>
+</html>
